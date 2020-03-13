@@ -6,7 +6,6 @@
 
 // Ainda por completar.
 int jogar (ESTADO *e, COORDENADA c) {
-    printf ("vez do jogador %d\n", e-> jogador_atual);
-    printf("jogar %d %d\n", c.coluna, c.linha);
+    printf("jogar %d %d\n",  1 + c.coluna, 1 + c.linha);
     return 1;
 }
